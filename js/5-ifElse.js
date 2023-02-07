@@ -1,4 +1,4 @@
-document.write("Hello from the If Else Page<br>");
+// document.write("Hello from the If Else Page<br>");
 
 
 // let nomenclature = prompt("Enter your name");
@@ -11,16 +11,34 @@ document.write("Hello from the If Else Page<br>");
 //     code if condition is false
 // }
 
+// "16" d->string v->16
+
+
+let age = prompt("Enter your age");
+let parsedAge = parseInt(age); // "56"
+// console.log(age, typeof(age));
+// console.log(parsed, typeof(parsed));
 
 
 
-let age = 17;
+// parsedAge = 66;
+
+// if(!(parsedAge <= 77)){
+//     document.write('A (truth condition)');
+// }else{
+//    document.write("B (falsy condition) ") 
+// }
 
 
 
-
-if(age < 18){
-    document.write('You are not eligible for driving');
-}else{
-   document.write("you are eligible ") 
-}
+// if(parsedAge <= 17 ){
+//     document.write('You cannot drive');
+// }
+// else if(parsedAge >= 18 && parsedAge <= 60){
+//     document.write("you can drive")
+// }
+// else if(parsedAge > 60){
+//     document.write("you cannot drive because of old age")
+// }else{
+//     document.write("Invalid choice")
+// }
