@@ -14,8 +14,8 @@
 // "16" d->string v->16
 
 
-let age = prompt("Enter your age");
-let parsedAge = parseInt(age); // "56"
+// let age = prompt("Enter your age");
+// let parsedAge = parseInt(age); // "56"
 // console.log(age, typeof(age));
 // console.log(parsed, typeof(parsed));
 
@@ -42,3 +42,19 @@ let parsedAge = parseInt(age); // "56"
 // }else{
 //     document.write("Invalid choice")
 // }
+
+
+
+
+// let age = 38;
+// if(age < 38){
+//     alert("age is smaller then 50")
+// }else{
+//     alert("age is greater then 50")
+
+// }
+
+
+// Ternary operator
+
+// (age < 50)?  alert("age is smaller then 50") :   alert("age is greater then 50");
