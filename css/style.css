@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head-1{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(136,10,10,1) 100%);    
+    padding:25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-pill{
+    display: flex;
+    align-items: center;
+    padding: .4rem;
+    font-size: larger;
+    color: white;
+}
+.head-box{
+    display: flex;
+}
+.head-pill div{
+    display: block;
+    display: flex;
+}
