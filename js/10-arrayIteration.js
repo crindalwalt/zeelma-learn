@@ -17,13 +17,21 @@ let friends = ["Zaid","Muhtshim","Maneer","Bazaid","Abdullah","Hamza","Talha","D
 //     document.write(friends[i] + "<br>");
 // }
 
+// let i = 0;
+// while(i<friends.length){
+
+//     document.write(friends[i] + "<br>")
+
+//     i++
+// }
+
 let i = 0;
-while(i<friends.length){
-
+do{
     document.write(friends[i] + "<br>")
-
     i++
-}
+}while(i<friends.length)
+
+
 
 
 
