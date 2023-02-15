@@ -1,0 +1,143 @@
+.capture{
+    background: url(course\ cover\ img.PNG);
+    height: 70vh;
+    background-size: cover !important;
+    background-repeat: repeat !important;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.capture::before{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.6);
+    content: '';
+}
+.capture-title{
+    font-size: 4.8rem;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.capture-menu{
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+}
+.capture-menu{
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+.course-padding{
+    padding: 12rem;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    text-align: center;
+    margin-bottom: 6rem;
+}
+.span{
+    color: darksalmon;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.heading{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.card-body{
+    font-size: 1.5rem;
+    width: 25rem;
+}
+.card-title{
+    font-weight: 200;
+
+}
+.card-text{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  
+}
+.card-text-head{
+    line-height: 1;
+}
+.card-text-head h5{
+    line-height: 1;
+    margin:0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.card-text-head span{
+    font-size: 1.4rem;
+    color: palevioletred;
+    line-height: 1;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.first{
+    /* display: flex; */
+    font-size: 1rem;
+}
+hr{
+    margin: 30px;
+}
+.btn-primary{
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #d8a5a5;
+    outline: none;
+    font-weight: 600;
+    transition: .5s ease;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+}
+.btn-primary::before{
+    position: absolute;
+    content: '';
+    background-color: black;
+    transform: .5s ease;
+    border: none;
+    height: 0;
+    width: 102%;
+    z-index: -1;
+    visibility: hidden;
+}
+.btn-primary:hover{
+    visibility: visible;
+}
+.card-body{
+    padding: 10px;
+    background-color: white;
+    width: 80%;
+    height: 55%;
+    box-shadow: 0.4px 0.4px 10px darkgrey;
+}
+.card-img-top{
+    box-shadow: 0.4px 0.4px 10px darkgrey;
+}
+.btn-primary a{
+    text-decoration: none;
+}
