@@ -13,7 +13,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* opacity: 0.8 ; */
+    opacity: 0.8 ;
     z-index: +1;
     position: relative;
 
@@ -49,7 +49,8 @@
 .about-sub{
     display: flex;
 }
-.hero-section{
+ .hero-section{
+    width: 100%;
     display: flex;
     margin-top:4rem;
 }
@@ -59,32 +60,35 @@
 .right{
     width: 50%;
 }
+.hero-img{
+    width: 350px;
+    height: 400px;
+}
 .left-head{
-    /* text-align: center; */
-    margin: 0rem 10rem;
-    font-size: 2.5rem;
+    margin: 0rem 3rem;
+    font-size: 2rem;
 }
 .left-para{
-    font-size: 1rem;
-    margin:2rem 10rem ;
-    line-height: 2rem;
+    font-size: .9rem;
+    margin:1rem 3rem ;
+    line-height: 1.2rem;
 }
 .left-para2{
-    margin: 0rem 10rem;
-    font-size: 1.5rem;
+    margin: 0rem 3rem;
+    font-size: 1rem;
     text-decoration: underline;
-    line-height: 3rem;
+    line-height: 2rem;
 }
 .left-inner{
     display: flex;
     justify-content: center;
-    margin: 2rem;
+    margin: 0rem rem;
 }
 .vertical-line{
     border-left: 2px solid black;
 }
 .margin{
-    margin: 0rem 2rem;
+    margin: 0rem 1rem;
 }
 .margin-head{
     margin: 1rem ;
@@ -126,7 +130,7 @@ color: lightgrey;
 }
 .online{
     display: flex;
-    margin: 10rem;
+    margin: 2rem;
 }
 .left-online{
     width: 50%;
@@ -146,3 +150,18 @@ color: lightgrey;
 .right-online-head{
     font-size: 3rem;
 }
+.cards{
+    display: flex;
+}
+.cards-icon{
+    width: 3rem;
+    height: 3rem;
+    border: 3px solid red;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 2rem;
+}
+.cards-div1-para{
+    margin: 1rem 3rem;
+    line
+} 

@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.page-404{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page-404-content{
+    width: 50%;
+
+}
+.page-404-img{
+    width: 50%;
+}
+.page-404-head{
+    font-size: 10rem;
+    margin: 0rem 5rem;
+    color: gray;
+
+}
+.page-404-para{
+    font-size: 2rem;
+    margin: 1rem 5rem;
+}
+.btn-page-404{
+    width: 12rem;
+    height: 4rem;
+    border: none;
+    background-color: rgba(255, 0, 0, 0.63);
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    margin: 2rem 5rem;
+    font-weight: bold;
+}
+.btn-page-404:hover{
+    background-color: black;
+    color: brown;
+}
