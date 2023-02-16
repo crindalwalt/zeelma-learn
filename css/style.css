@@ -1,11 +1,14 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
     margin: 0;
     padding: 0;
 }
+/* Header 1 */
+
 .head-1{
     background: rgb(255,0,0);
     background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(136,10,10,1) 100%);    
-    padding:25px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,4 +26,138 @@ body{
 .head-pill div{
     display: block;
     display: flex;
+}
+.head-pill a{
+    text-decoration: none;
+    color: white;
+}
+.mail-icon{
+    margin: 10px;
+}
+.ques-icon{
+    margin: 10px;
+}
+.log-icon{
+    margin: 10px;
+}
+.reg-icon{
+    margin: 10px;
+}
+
+/* Header 2 */
+.logo{
+    padding: 1rem 2rem;
+}
+.head-2{
+    background-color: white;
+    box-shadow: 0.4px 0.4px 0px rgb(167, 123, 57);
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bar{
+    text-align: center;
+    margin-top: 20px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.menu-bar ul li a:hover{
+    color: red;
+}
+.sub-menu-1 ul{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0.4px 0.4px 2px gainsboro;
+}
+.sub-menu-1 ul li a{
+    padding: 5px 10px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 11px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    background-color: rgb(249,248,248);
+}
+.bi-caret-down-fill{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+/* =======================Section-1======================= */
+
+.sec-1{
+    padding-top: 12rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(249,248,248);
+    background-image: linear-gradient(315deg, rgb(249,233,234) 0%, rgb(244, 239, 243) 74%);
+    z-index: -1;
+}
+.sec-1::before{
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 250px;
+            background: url(./wave3.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+.info{
+    margin-left: 60px;
+    width: 50%;
+    height: 100vh;
+}
+.info h2{
+    font-size: 3.2rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+.info p{
+    font-size: 20px;
+    width: 50%;
+    line-height: 2;
+}
+.sec-1-img{
+    width: 50%;    
+    height: 100vh;
+}
+.btn{
+    margin-top: -18rem;
+    margin-left: 3.8rem;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    margin: 0px 4px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgb(185, 25, 25) 100%);    
+    border: none;
 }
