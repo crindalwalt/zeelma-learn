@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.capture{
+    background: url(course\ cover\ img.PNG);
+    height: 70vh;
+    background-size: cover !important;
+    background-repeat: repeat !important;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.capture::before{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.6);
+    content: '';
+}
+.capture-title{
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.capture-menu{
+    text-align: center;
+    text-decoration: none;
+    z-index: 1;
+}
+.capture-menu{
+    text-align: center;
+    font-weight: 400;
+    
+}
+.contact-area-pad{
+    padding: 12rem 0px;
+}
+.contact-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact-grid{
+    grid-gap: 5rem;
+}
+.contact-left{
+    margin-left: 2rem;
+}
+.contact-left h2{
+    line-height: 4.5rem;
+    padding-left: 2rem;
+}
+h2{
+    font-size: 3rem;
+}
+.contact-list{
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+li{
+    list-style: none;
+}
+h5{
+    font-size: 26px;
+    font-weight: 500;
+}
+span{
+    color: gray;
+    font-size: 1.3rem;
+}
+h2, h5{
+    color: black;
+    margin: 0px 0px 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 700;
+    /* line-height: 1.2; */
+}
+.form-right{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.at-1{
+    display: grid;
+    flex: 0 0 auto;
+    width: 43%;
+}
+.at-2{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.input-style {
+    padding: 20px 20px;
+    margin-bottom: 1rem;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    outline: none;
+    line-height: 1;
+    font-size: 1.1rem; 
+    background-color: rgba(245, 245, 245, 0.075);
+}
+.input-style-2 {
+    margin-left: 20px;
+    padding: 20px 20px;
+    margin-bottom: 1rem;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    outline: none;
+    line-height: 1;
+    font-size: 1.1rem; 
+    background-color: rgba(245, 245, 245, 0.075);
+}
+.input-style-1{
+    display: block;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    outline: none;
+    line-height: 1; 
+    background-color: rgba(245, 245, 245, 0.075);
+}
+.btn-1{
+    padding: 1.3rem 2rem;
+    margin-top: 2.5rem;
+    line-height: 1;
+    font-size: 1rem;
+    color: white;
+    background-color: red;
+    border: none;
+}
