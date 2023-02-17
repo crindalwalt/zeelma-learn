@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.capture{
+    background: url(course\ cover\ img.PNG);
+    height: 70vh;
+    background-size: cover !important;
+    background-repeat: repeat !important;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.capture::before{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.6);
+    content: '';
+}
+.capture-title{
+   
+    color: white;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.home{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+ .cap-mnu{
+    margin-left: 10px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+
+}
+ .cap-mnu:hover{
+    color: red;
+}
+.about-sub{
+    display: flex;
+}
