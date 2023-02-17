@@ -3,7 +3,7 @@
     padding: 0;
 }
 .capture{
-    background: url(course\ cover\ img.PNG);
+    background: url(/assets/images/course\ cover\ img.PNG);
     height: 70vh;
     background-size: cover !important;
     background-repeat: repeat !important;
@@ -47,4 +47,76 @@
 }
 .about-sub{
     display: flex;
+}
+.blog-padding{
+    padding: 12rem;
+}
+.blog-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.blog-grid{
+    grid-gap: 3rem;
+}
+img{
+    max-width: 100%;
+}
+.blog-flex{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+li{
+    list-style: none;
+}
+i{
+    margin-left: 7px;
+    font-style: normal;
+    color: gray;
+}
+.blog-box .blog-info .blog-flex{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+body{
+    font-style: normal;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+}
+.blog-box h4  {
+    margin-top: -1rem;
+    line-height: 3rem;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 545;
+    width: 70%;
+}
+.blog-date-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-date{
+    display: flex;
+    padding: 2px 23px;
+    background-color: #F65856;
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+p{
+    font-size: 1.4rem;
+    padding-left: 5px;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: #F65856;
 }
