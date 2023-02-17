@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -150,14 +150,296 @@
     height: 100vh;
 }
 .btn{
-    margin-top: -18rem;
-    margin-left: 3.8rem;
+    display: inline-flex;
+    left: 20%;
+    top: -15rem;
+    transform: translate(-63%, -50%);
+    position: relative;
 }
 .btn a{
+    position: relative;
+    width: 160px;
+    height: 60px;
+    text-decoration: none;
+    color: #000;
+    margin: 0px 5px;
+    text-align: center;
+    line-height: 70px;
+    border: none;
+}
+.btn a span{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgb(185, 25, 25) 100%);    
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.btn a:hover{
+    background-color: black;
+    color: #fff;
+}
+.to-top-ani{
+    width: 160px;
+    height: 0;
+    right: 0;
+    bottom: 0;
+}
+.btn a:hover .to-top-ani{
+    height: 60px;
+    transition: 0.5s;
+}
+
+/* Subjects sections info */
+
+.sec-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.subj-info{
+    margin-left: 7rem;
+}
+.subj-info h2{
+    font-size: 3.3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    line-height: 6rem;
+    font-weight: bold;
+}
+.subj-info p{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 2;
+}
+.sec-2 .subj-btn{
+    position: relative;
+    margin-top: 9rem;
+    margin-left: 30rem;
+}
+.sec-2 .subj-btn a{
+    position: relative;
+    width: 160px;
+    height: 60px;
     text-decoration: none;
     color: white;
-    padding: 20px 20px;
-    margin: 0px 4px;
-    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgb(185, 25, 25) 100%);    
+    font-size: 1.3rem;
+    /* margin: 0px 5px; */
+    text-align: center;
+    /* line-height: 70px; */
     border: none;
+    overflow: hidden;
+}
+.sec-2 .subj-btn a span{
+    position: absolute;
+    width: 160px;
+    height: 60px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgb(185, 25, 25) 100%);    
+    left: -45px;
+    top: -20px;
+    z-index: -1;
+}
+
+/* Subject Contanier */
+
+.subj-contanier{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 2rem;
+    padding: 0 7rem;
+    margin-top: 4rem;
+}
+.subj-contanier > div {
+    background-color: white;
+    box-shadow: 0.4px 0.4px 10px wheat;
+    border: 1px solid rgb(204,204,204);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.cot-1 .cot-1-icon{
+    height: 7rem;
+    width: 7rem;
+    line-height: 7rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 3.5rem;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgb(185, 25, 25) 100%);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    color: white;
+    margin-bottom: 2rem;
+}
+.cot-1-info h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100px;
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem;
+}
+.cot-1-info p{
+    margin-bottom: 1rem;
+    font-weight: 2rem;
+    font-size: 1.2rem;
+    color: rgb(69, 58, 58);
+    line-height: 3.6rem;
+}
+.cot-1-info .cot-1-btn{
+    color: red;
+    font-size: 1.5rem;
+}
+.cot-1-info .cot-1-btn:hover{
+    text-decoration: none;
+}
+
+
+/* Courses section*/
+
+.courses-area{
+    position: relative;
+    padding: 10rem;
+    background-color: rgb(249,248,248);
+    margin-top: 8rem;
+}
+.course-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.course-info h3{
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    color: red;
+    font-weight: normal;
+}
+.course-info h2{
+    font-size: 2.4rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.course-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+.courses-cart{
+    box-shadow: 0.4px 0.4px 20px wheat; 
+}
+.courses-cart .hand-img{
+    position: absolute;
+    bottom: 10rem;
+    left: 26rem;
+    opacity: .467;
+}
+
+/* .courses-cart::before{
+    content: '';
+    position: absolute;
+    background: url(./hand-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 600px;
+    top: 25rem;
+    left: 19rem;
+    opacity: 0.456;
+} */
+.cart-img{
+    background: url(./1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+.cart-meta{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: -3rem;
+    color: white;
+}
+.cart-meta .meta-1{
+    font-size: 1rem;
+    font-family: 'Jost', sans-serif;
+}
+.cart-meta .meta-1-price{
+    color: red;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0.4px 0.4px 10px rgb(129, 142, 129);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: -0.5rem;
+}
+.courses-cart .course-title{
+    font-family: 'Jost', sans-serif;
+    font-size: 1.6rem;
+    padding: 30px;
+}
+.course-tech{
+    display: flex;
+    padding: 0px 30px;
+}
+.course-tech .course-bio{
+    padding-left: 20px;
+}
+.course-tech .course-bio h5{
+    font-family: 'Jost', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.course-tech .course-bio p{
+    color: red;
+}
+.cart-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+.cart-footer .course-btn a{
+    text-decoration: none;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgb(185, 25, 25) 100%);
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.3rem;
+    padding: 10px 20px;
+}
+/* .hand-img{
+    position: absolute;
+    bottom: 10rem;
+    right: 8rem;
+    opacity: 0.456;
+} */
+
+/* Client Feedback area section */
+
+.client-feedback-area{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.client-feedback-area .client-says{
+    margin: 8rem;
+}
+.client-feedback-area h5{
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 1.8rem;
+}
+.client-feedback-area h2{
+    font-family: serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 4rem;
+}
+.client-feedback-area p{
+    font-family: 'Jost', sans-serif;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-top: 1rem;
 }
