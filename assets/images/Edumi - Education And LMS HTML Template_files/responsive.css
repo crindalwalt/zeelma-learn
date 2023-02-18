@@ -1,0 +1,629 @@
+/*================================ 
+    #RESPONSIVE CSS 
+====================================*/
+	
+
+/* Large Device: 1200px. */
+@media only screen and (min-width: 1200px) and (max-width: 1374px) {
+	
+	.hero-2-container .hero-2-content p {
+        padding-right: 0;
+    }
+    
+    .cate-2-wpr.grid-4 {
+       grid-template-columns: repeat(2, 1fr); 
+    }
+    
+    .course-wpr.grid-3 {
+      grid-template-columns: repeat(2, 1fr);   
+    }
+    
+    .event-wpr.grid-2 {
+        grid-gap: 3rem;
+    }
+    
+    .cate-area .cate-shp .s-1 {
+        top: 121px;
+    }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1200px){
+	
+    /*Hero*/
+    .hero-2-container {
+        height: auto;
+        max-height: initial;
+        padding-top: 5rem;
+    }
+    /*	About*/
+    .about-wpr.grid-2 {
+        grid-template-columns: 1fr;
+    }
+	
+    /* Categories*/
+    .cate-wpr.grid-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cate-2-wpr.grid-4 {
+       grid-template-columns: repeat(2, 1fr); 
+    }
+    
+    /*Couse*/
+    
+    .course-wpr.grid-3 {
+        grid-template-columns: repeat(2, 1fr)
+    }
+    
+    /*Promotion*/
+    
+    .prom-wpr.grid-2 {
+        grid-template-columns: 1fr;
+    }
+    
+    /*Event*/
+    
+    .event-wpr.grid-2 {
+        grid-template-columns: 1fr;
+    }
+    
+     /*Counter*/
+    
+    .counter-wpr.grid-4 {
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .course-info-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    /* Blog*/
+    
+    .blog-wpr.grid-3 {
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    /*Footer*/
+    
+    .footer-widget-wpr {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /* Contact*/
+    
+    .contact-page-info.grid-2 {
+        grid-gap: 5rem;
+    }
+    
+}
+
+/* Tablet Layout: 768px.*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	/*	Grid*/
+	
+	.grid-2 {
+		grid-template-columns: 1fr;
+	}
+	
+	.grid-3 {
+		grid-template-columns: repeat(2,1fr);
+	}
+	
+	.grid-4 {
+		grid-template-columns: repeat(2,1fr);
+	}
+	
+	/*	Nav*/
+	
+	nav.navbar.bootsnav .navbar-toggle {
+		margin-top: 25px;
+	}
+	
+	/*NavBar*/
+	
+	.navbar ul.navbar-nav .nav-item a {
+		color: $clr-heading !important;
+	}
+
+	.navbar.sticked.in ul.navbar-nav .nav-item a {
+		color: $clr-heading;
+	}
+	
+	nav.navbar.bootsnav .navbar-toggle {
+		margin-top: 2.5rem;
+	}
+	
+	.navbar {
+		padding: 2rem;
+	}
+	
+    .dropdown-menu .dropdown-item {
+        font-size: 1.6rem!important
+    }
+    
+	/*Hero*/
+	
+    .hero-2-container {
+        height: auto;
+        max-height: initial;
+    }
+    
+    .hero-2-container .hero-2-content {
+        padding-top: 5rem;
+    }
+    
+	.hero-slider .hero-single {
+		min-height: 100vh;
+		max-height: inherit;
+		padding-top: 17rem;
+	}
+	
+	.hero-single .hero-content h2 {
+		font-size: 3.6rem;
+		line-height: 1.1;
+	}
+	
+	.hero-content p {
+		font-size: 1.8rem;
+		line-height: 3rem;
+	}
+	
+	.hero-slider .hero-single .hero-left .hero-content {
+		-webkit-transform: translate(0px, 0);
+		transform: translate(0px, 0);
+		width: 100%;
+		position: relative;
+		z-index: 1;
+		padding: 0 3rem 5rem 3rem;
+	}
+	
+    /*About*/
+	
+    .about-right {
+        position: relative;
+        z-index: 2;
+    }
+    
+    /*Counter*/
+    
+    .counter-area {
+        position: relative;
+        z-index: 2;
+    }
+    
+    .course-info-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    .course-video-wrp {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+	/*Footer*/
+	
+	.footer-widget-wpr {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    /*Contact*/
+    
+    .contact-page-info.grid-2 {
+        grid-gap: 5rem;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+	
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+	
+	.site-title h2 {
+		font-size: 3rem;
+	}
+    
+    .site-breadcrumb .breadcrumb-title {
+        font-size: 3rem;
+    }
+	
+	/*	Padding*/
+	
+	.de-padding{
+		padding: 5rem 0;
+	}
+
+	.de-pt {
+		padding-top: 5rem;
+	}
+
+	.pt-120 {
+		padding-top: 5rem;
+	}
+
+	.pt-105 {
+		padding-top: 5rem;
+	}
+
+	.pt-210 {
+		padding-top: 13rem;
+	}
+	
+	.de-pb {
+		padding-bottom: 5rem;
+	}
+
+	.pb-120 {
+		padding-bottom: 5rem;
+	}
+
+	.pb-105 {
+		padding-bottom: 5rem;
+	}
+	
+	.pb-80 {
+		padding-botto: 5rem;
+	}
+	
+	/*	Breadcrumb*/
+	
+	.main-breadcrumb {
+		padding: 0;
+		text-align: center;
+	}
+	
+	.site-breadcrumb-title h2 {
+		font-size: 3rem;
+		line-height: 1;
+		margin-bottom: 1rem;
+	}
+	
+	/*NavBar*/
+	
+	.navbar ul.navbar-nav .nav-item a {
+		color: $clr-heading !important;
+	}
+
+	.navbar.sticked.in ul.navbar-nav .nav-item a {
+		color: $clr-heading;
+	}
+	
+	nav.navbar.bootsnav .navbar-toggle {
+		margin-top: 2.5rem;
+	}
+	
+	.navbar {
+		padding: 1rem;
+	}
+	
+   .dropdown-menu .dropdown-item {
+        font-size: 1.6rem!important
+    }
+    
+	/*	grids*/
+	
+	.grid-2 {
+		grid-template-columns: 1fr;
+	}
+	
+	.grid-3 {
+		grid-template-columns: 1fr;
+	}
+	
+	.grid-4 {
+		grid-template-columns: 1fr;
+	}
+	
+    /*	Header Top*/
+    
+    .header-top-list {
+        display: flex;
+        gap: 1rem;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+	/*	Hero*/
+	
+    .hero-section {
+        height: auto;
+    }
+    
+	.hero-single {
+		height: 70vh;
+		padding: 0;
+        
+	}
+    
+    .hero-single .hero-content {
+        padding: 0;
+    }
+	
+    .hero-title {
+        font-size: 3rem;
+        line-height: 1.2;
+        font-weight: 500;
+        color: var(--clr-white);
+        margin-bottom: 4rem;
+    }
+    
+    /* Hero 2*/
+    
+    .hero-2-container {
+        height: auto;
+    }
+    
+    .hero-2-container .hero-2-content {
+        padding-right: 0;
+        padding-top: 5rem;
+    }
+
+    .hero-2-container .hero-2-content h2 {
+        font-size: 3rem;
+        line-height: 1.3;
+        font-weight: 500;
+    }
+    
+    .hero-2-container .hero-2-content p {
+        padding-right: 0;
+    }
+    
+    .hero-2-btn {
+        flex-direction: column;
+        align-self: flex-start;
+    }
+    
+    /* About*/
+    
+    .about-qt {
+        font-size: 2.2rem;
+    }
+    
+    .ab-2-f {
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+    }
+    
+    .about-right {
+        position: relative;
+        z-index: 2;
+    }
+    
+    /* Categories*/
+    
+    .hero-2-tll {
+        font-size: 3.6rem;
+    }
+    
+    .site-title-2 {
+        margin-bottom: 5rem;
+    }
+    
+    /*Course*/
+    
+    .course-sp-1 {
+        display: none;
+    }
+    
+    .course-box .course-info .course-buy {
+        gap: 5px;
+    }
+    
+    .course-box.c-box-2 .course-pic .course-price {
+        bottom: inherit;
+        left: 2rem;
+        transform: translate(0, 0);
+        top: 2rem;
+    }
+    
+    .course-info-wrapper {
+        grid-template-columns: 300px;
+    }
+    
+    .course-syl-price ul,
+    .course-syl-author ul {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .nav-pills .nav-link {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    
+    ul.course-li-1 li {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .course-li-1.li-2 {
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+    
+    .course-syl-author ul li::before {
+        display: none;
+    }
+    
+    .course-video-wrp {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .course-item-name {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .course-item-name h5 {
+        margin-left: 0;
+    }
+    
+    .course-item-info a {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+    
+    .course-item-info span {
+        display: block;
+    }
+    
+    .course-over-fet {
+        padding: 3rem;
+    }
+    
+    .single-commentor-user {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+     /* Counter*/
+    
+    .counter-area {
+        position: relative;
+        z-index: 2;
+    }
+    
+    .counter-wpr {
+        padding: 3rem;
+    }
+    
+    /* Promotion*/
+    .prom-opt ul {
+        flex-direction: column;
+    }
+	
+    /*Event*/
+    
+    .event-box {
+        flex-direction: column;
+    }
+    
+    .event-date {
+        width: 200px;
+    }
+    
+    .event-box .event-info ul {
+        display: flex;
+        gap: 2rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    /* Review*/
+    
+    .feed-wpr.grid-px-2 {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-gap: 3rem;
+    }
+    
+    .feed-box .feed-author {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .feed-active.owl-carousel .owl-stage-outer {
+        padding: 0rem;
+        margin: 0rem 0rem 0rem 0;
+    }
+    
+    .feed-box {
+        padding: 3rem;
+    }
+    
+    /*  Footer  */
+    
+    .footer-widget-wpr {
+        grid-template-columns: 1fr;
+    }
+    
+    .copyright {
+        align-items: flex-start;
+        padding-bottom: 5rem;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    
+    /* FAQ*/
+    
+    .faq-wpr.grid-2 {
+        grid-gap: 5rem;
+    }
+    
+    /* Contact*/
+    
+    .contact-page-info.grid-2 {
+        grid-gap: 5rem;
+    }
+    
+    /*Author Single*/
+    
+    .author-bio-wrapper {
+        padding: 3rem;
+    }
+    
+    /*Blog*/
+    
+    .blog-single-info .blog-single-header .blog-single-meta {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .b-qoute {
+        padding: 2rem;
+    }
+    
+    .blog-single-tag {
+        flex-direction: column;
+        align-items: flex-start!important;
+        gap: 3rem;
+    }
+    
+    .blog-single-info .blog-single-comment .blog-single-single {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.main-navigation .navbar.bsnav-sticky .navbar-collapse ul li a {
+		color: #333;
+	}
+}
+
+@media only screen and (max-width: 576px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
