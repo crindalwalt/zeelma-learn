@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head-1{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(136,10,10,1) 100%);    
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head-pill{
+    display: flex;
+    align-items: center;
+    padding: .4rem;
+    font-size: larger;
+    color: white;
+}
+.head-box{
+    display: flex;
+}
+.head-pill div{
+    display: block;
+    display: flex;
+}
+.head-pill a{
+    text-decoration: none;
+    color: white;
+}
+.mail-icon{
+    margin: 10px;
+}
+.ques-icon{
+    margin: 10px;
+}
+.log-icon{
+    margin: 10px;
+}
+.reg-icon{
+    margin: 10px;
+}
+/* Header 2 */
+.logo{
+    padding: 1rem 2rem;
+}
+.head-2{
+    background-color: white;
+    box-shadow: 0.4px 0.4px 0px rgb(167, 123, 57);
+    display: flex;
+    justify-content: space-between;
+}
+.menu-bar{
+    text-align: center;
+    margin-top: 20px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: black;
+}
+.menu-bar ul li{
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu-bar ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.menu-bar ul li a:hover{
+    color: red;
+}
+.sub-menu-1 ul{
+    padding: 0;
+    margin: 0;
+    box-shadow: 0.4px 0.4px 2px gainsboro;
+}
+.sub-menu-1 ul li a{
+    padding: 5px 10px;
+}
+.sub-menu-1{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: white;
+    margin-top: 11px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    background-color: rgb(249,248,248);
+}
+.bi-caret-down-fill{
+    margin-top: 4px;
+    margin-left: 4px;
+}
+.capture{
+    background: url(/assets/images/course\ cover\ img.PNG);
+    height: 70vh;
+    background-size: cover !important;
+    background-repeat: repeat !important;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+.capture::before{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.6);
+    content: '';
+}
+.capture-title{
+   
+    color: white;
+    font-weight: 300;
+    font-size: 3rem;
+}
+.home{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+ .cap-mnu{
+    margin-left: 10px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+
+}
+ .cap-mnu:hover{
+    color: red;
+}
+.about-sub{
+    display: flex;
+}
+.blog-padding{
+    padding: 12rem;
+}
+.blog-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.blog-grid{
+    grid-gap: 3rem;
+}
+img{
+    max-width: 100%;
+}
+.blog-flex{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+li{
+    list-style: none;
+}
+i{
+    margin-left: 7px;
+    font-style: normal;
+    color: gray;
+}
+.blog-box .blog-info .blog-flex{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+body{
+    font-style: normal;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 3.4rem;
+}
+.blog-box h4  {
+    margin-top: -1rem;
+    line-height: 3rem;
+    letter-spacing: 0.5px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: 545;
+    width: 70%;
+}
+.blog-date-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-date{
+    display: flex;
+    padding: 2px 23px;
+    background-color: #F65856;
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 20px;
+}
+p{
+    font-size: 1.4rem;
+    padding-left: 5px;
+    color: white;
+}
+.btn{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.4rem;
+    text-decoration: underline;
+    color: #F65856;
+}
