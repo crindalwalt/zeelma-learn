@@ -3,7 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.fa
+.faq-head{
+    display: flex;
+}
 .faqs{
     display: flex;
     width: 100%;
