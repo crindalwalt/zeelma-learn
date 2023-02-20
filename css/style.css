@@ -67,7 +67,7 @@
     color: black;
 }
 .menu-bar ul li{
-    width: 100px;
+    /* width: 100px; */
     margin: 10px;
     padding: 10px;
 }
@@ -95,7 +95,7 @@
     display: block;
     position: absolute;
     background-color: white;
-    margin-top: 11px;
+    /* margin-top: 11px; */
 }
 .menu-bar ul li:hover .sub-menu-1 ul{
     display: block;
@@ -788,6 +788,41 @@ footer{
 }
 .fot-line .instagram-icon{
     margin-right: 1rem;
+}
+
+/* .btn-hover-3{
+    margin-top: -18rem;
+    margin-left: 5rem;
+} */
+
+.btn-hover-3 button{
+    position: relative;
+    border: none;
+    transition: 0.4s ease-in;
+    z-index: 1;
+    padding: 15px 30px;
+    margin-right: 1rem;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(136,10,10,1) 100%);
+    color: white;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+}
+.btn-hover-3 button::before,
+.btn-hover-3 button::after{
+    position: absolute;
+    content: '';
+    z-index: -1;
+}
+.btn-hover-3 .btn::after{
+    height: 0;
+    left: 0;
+    top: 0;
+    transition-duration: 0.4s;
+    width: 100%;
+    background-color: black;
+}
+.btn-hover-3 .btn:hover:after{
+    height: 100%;
 }
 
 /* =============================== */

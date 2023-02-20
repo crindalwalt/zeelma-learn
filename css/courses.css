@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+/* Header 1 */
+
 .head-1{
     background: rgb(255,0,0);
     background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(136,10,10,1) 100%);    
@@ -40,6 +43,7 @@
 .reg-icon{
     margin: 10px;
 }
+
 /* Header 2 */
 .logo{
     padding: 1rem 2rem;
@@ -60,7 +64,7 @@
     color: black;
 }
 .menu-bar ul li{
-    width: 120px;
+    /* width: 100px; */
     margin: 10px;
     padding: 10px;
 }
@@ -88,7 +92,8 @@
     display: block;
     position: absolute;
     background-color: white;
-    margin-top: 11px;
+    z-index: 2  ;
+    /* margin-top: 11px; */
 }
 .menu-bar ul li:hover .sub-menu-1 ul{
     display: block;
@@ -103,8 +108,11 @@
     margin-top: 4px;
     margin-left: 4px;
 }
+
+/* ================================ */
+
 .capture{
-    background: url(course\ cover\ img.PNG);
+    background: url(/zeelma-learn/assets/images/course\ cover\ img.PNG);
     height: 70vh;
     background-size: cover !important;
     background-repeat: repeat !important;
@@ -174,11 +182,9 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-
 .card-body{
     font-size: 1.5rem;
     width: 25rem;
-
 }
 .card-title{
     font-weight: 200;
@@ -186,20 +192,23 @@
 .card-text{
     display: flex;
     align-items: center;
-    gap: 2rem;
-  
+    gap: 1rem;
+}
+.card-text img{
+    margin-top: 2rem;
 }
 .card-text-head{
     line-height: 1;
 }
-.card-text-head h5{
+.card-text-head h4{
     line-height: 1;
-    margin:0px;
-    font-size: 1.5rem;
+    margin-top: 2rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
+
 .card-text-head span{
-    font-size: 1.4rem;
+    font-size: 0.9rem;
     color: palevioletred;
     line-height: 1;
 }
@@ -291,6 +300,8 @@ hr{
 .btn-primary a{
     text-decoration: none;
 }
+
+
 /* footer */
 
 footer{
@@ -299,7 +310,7 @@ footer{
 
 .footer-grid{
     display: grid;
-    grid-template-columns: repeat(4, 250px);
+    grid-template-columns: repeat(4, 260px);
     gap: 4rem;
 }
 .footer-col{
@@ -311,6 +322,7 @@ footer{
 .footer-col h2{
     font-size: 1.8rem;
     font-weight: bold;
+    width: 300px;
 }
 .footer-col hr{
     width: 50px;
@@ -345,6 +357,7 @@ footer{
 }
 .footer-col svg{
     margin-right: 1.1rem;
+    color: gray;
 }
 .course-footer{
     display: flex;
@@ -393,6 +406,9 @@ footer{
     color: rgb(158, 173, 180);
     padding: 30px 0px;
 }
+.fot-line .bi{
+    color: gray;
+}
 .fot-line .social-icon{
     display: flex;
 }
@@ -406,4 +422,33 @@ footer{
     margin-right: 1rem;
 }
 
+.btn-hover-3 button{
+    position: relative;
+    border: none;
+    transition: 0.4s ease-in;
+    z-index: 1;
+    padding: 15px 30px;
+    margin-right: 1rem;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(136,10,10,1) 100%);
+    color: white;
+    font-family: var(--font-family);
+    font-size: 1.2rem;
+}
+.btn-hover-3 button::before,
+.btn-hover-3 button::after{
+    position: absolute;
+    content: '';
+    z-index: -1;
+}
+.btn-hover-3 .btn::after{
+    height: 0;
+    left: 0;
+    top: 0;
+    transition-duration: 0.4s;
+    width: 100%;
+    background-color: black;
+}
+.btn-hover-3 .btn:hover:after{
+    height: 100%;
+}
 /* =============================== */
