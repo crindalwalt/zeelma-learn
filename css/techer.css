@@ -355,7 +355,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     color: rgb(158, 173, 180);
-    margin-top: 2rem;
+    padding: 30px 0px;
 }
 .fot-line .social-icon{
     display: flex;

@@ -126,20 +126,28 @@
     content: '';
 }
 .capture-title{
-    font-size: 4.8rem;
-    text-transform: capitalize;
-    color: #fff;
-    margin-bottom: 2rem;
+   
+    color: white;
+    font-weight: 300;
+    font-size: 3rem;
 }
-.capture-menu{
-    text-align: center;
+.home{
+    font-size: larger;
     text-decoration: none;
-    z-index: 1;
+    color: white;
 }
-.capture-menu{
-    text-align: center;
-    font-weight: 400;
-    
+ .cap-mnu{
+    margin-left: 10px;
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+
+}
+ .cap-mnu:hover{
+    color: red;
+}
+.about-sub{
+    display: flex;
 }
 
 .course-padding{
@@ -346,7 +354,7 @@ footer{
     display: flex;
     justify-content: space-evenly;
     color: rgb(158, 173, 180);
-    margin-top: 2rem;
+    padding: 30px 0px;
 }
 .fot-line .social-icon{
     display: flex;
