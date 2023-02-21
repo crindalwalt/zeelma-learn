@@ -356,6 +356,9 @@ footer{
     color: rgb(158, 173, 180);
     padding: 30px 0px;
 }
+.fot-line h2{
+    font-size: 2rem;
+}
 .fot-line .bi{
     color: gray;
 }
