@@ -47,7 +47,7 @@
     margin: 10px;
 }
 
-/* Header 2 */
+/* Header 2
 .logo{
     padding: 1rem 2rem;
 }
@@ -67,7 +67,7 @@
     color: black;
 }
 .menu-bar ul li{
-    /* width: 100px; */
+    width: 100px;
     margin: 10px;
     padding: 10px;
 }
@@ -95,7 +95,7 @@
     display: block;
     position: absolute;
     background-color: white;
-    /* margin-top: 11px; */
+    margin-top: 11px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul{
     display: block;
@@ -109,15 +109,28 @@
 .bi-caret-down-fill{
     margin-top: 4px;
     margin-left: 4px;
-}
+} */
 
+
+.ms-auto{
+    position: absolute;
+    right: 2rem;
+    top: 20px;
+}
+.navbar ul li{
+    padding: 0px 20px;
+}
+.navbar ul li a{
+    font-family: serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 /* =======================Section-1======================= */
 
 .sec-1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-top: 12rem;
-    position: relative;
     background-color: rgb(249,248,248);
     background-image: linear-gradient(315deg, rgb(249,233,234) 0%, rgb(244, 239, 243) 74%);
     z-index: -1;
@@ -149,8 +162,8 @@
 }
 .sec-1-img{
     margin-top: -12rem;
-    margin-left: -1rem;
-    width: 80%;    
+    /* margin-left: -1rem; */
+    /* width: 80%;  */
     height: 100vh;
     background-color: pink;
     padding-top: 220px;
@@ -161,7 +174,7 @@
 /* animated button */
 
 .btn-hover-1{
-    margin-top: -18rem;
+    margin-top: -5rem;
     margin-left: 5rem;
 }
 
@@ -335,7 +348,7 @@
     row-gap: 2rem;
 }
 .courses-cart{
-    box-shadow: 0.4px 0.4px 20px wheat; 
+    box-shadow: 0.4px 0.4px 20px wheat;
 }
 .courses-cart .hand-img{
     position: absolute;
@@ -357,7 +370,7 @@
     opacity: 0.456;
 } */
 .cart-img{
-    background: url(/assets/images/1.jpg);
+    background: url(/zeelma-learn/assets/images/card\ image\ 1.PNG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -386,11 +399,11 @@
 .courses-cart .course-title{
     font-family: 'Jost', sans-serif;
     font-size: 1.6rem;
-    padding: 30px;
+    padding: 10px;
 }
 .course-tech{
     display: flex;
-    padding: 0px 30px;
+    padding: 25px 30px;
 }
 .course-tech .course-bio{
     padding-left: 20px;
@@ -476,7 +489,7 @@
 main{
     width: 70%;
     height: 40vh;
-    margin: auto;
+    /* margin: auto; */
     box-shadow: 0px 0px 3px grey;
     position: relative;
     overflow: hidden;
@@ -501,7 +514,7 @@ main{
 
 .Event-section{
     background-color: rgb(249,248,248);
-    padding: 5.2rem 4rem;
+    padding: 5.2rem 3rem;
 }
 .text-center{
     text-align: center;
@@ -530,12 +543,12 @@ main{
     margin-bottom: 5rem;
 }
 .event-date{
-    width: 220px;
+    width: 260px;
     border-radius: 2px;
     background-color: white;
     box-shadow: 1px 1.732px 40px 0px rgb(0 0 0 / 8%);
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 1rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -546,7 +559,7 @@ main{
 .event-date::before{
     position: absolute;
     content: "";
-    width: 80%;
+    width: 90%;
     height: 80%;
     border: 2px dashed rgb(246,88,104);
     border-radius: 2px;
@@ -592,7 +605,7 @@ main{
     align-items: center;
     margin-bottom: 2.5rem;
     line-height: 1;
-    width: 345px;
+    width: 390px;
 }
 .event-box .event-info ul li {
     display: flex;
@@ -651,7 +664,7 @@ main{
 }
 .contact-row-1 input{
     padding: 15px;
-    width: 200px;
+    width: 215px;
     margin-right: 1rem;
 }
 .contact-row-2 input{
@@ -826,3 +839,175 @@ footer{
 }
 
 /* =============================== */
+
+
+@media only screen and (min-width:600px) and (max-width:768px) {
+    .head-1{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: 0.8rem;
+    }
+    .head-pill{
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+    .head-box{
+        display: flex;
+    }
+    .head-pill div{
+        display: flex;
+    }
+    .head-pill a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    /* Header 2 */
+
+    .navbar button{
+        position: absolute;
+        right: 2rem;
+        top: 30px;
+    }
+    .navbar ul{
+        margin-top: 3rem;
+        background-color: red;
+    }
+
+    /* Section-1 */
+
+    .sec-1{
+        display: grid;
+        grid-template-rows: auto;
+        padding: 5rem 0rem;
+    }
+    .info h2{
+        width: 100vw;
+    }
+    .info p{
+        width: 80%;
+    }
+    .sec-1-img{
+        position: absolute;
+        margin-top: 15rem;
+        margin-left: 5rem;
+        width: 80%; 
+        height: 100vh;
+        background: none;
+    }
+    
+    /* animated button */
+    
+    .btn-hover-1{
+        margin-top: -4.5rem;
+        margin-left: 4rem;
+    }
+
+    /*section-2  */
+
+    .sec-2{
+        display: grid;
+        grid-template-rows: auto;
+        margin-top: 30rem;
+    }
+    .subj-info{
+        margin-left: 2rem;
+    }
+    .subj-info h2{
+        width: 100vw;
+    }
+    .subj-info p{
+        width: 80%;
+    }
+    .btn-hover-2{
+        position: absolute;
+        margin-top: 15rem;
+        margin-left: 2rem;
+    }
+
+    /* Subject-contanier */
+
+    .subj-contanier{
+        margin-top: 8rem;
+    }
+    .cot-1-info p{
+        line-height: 2rem;
+    }
+
+    /* Courses section*/
+
+.courses-area{
+    padding: 3rem;
+}
+.cart-meta .meta-1-price{
+    padding: 0px 10px;
+    margin-top: -0.1rem;
+}
+.course-tech{
+    padding: 10px 20px;
+}
+.course-tech .course-bio{
+    padding-left: 10px;
+}
+.course-tech .course-bio h5{
+    letter-spacing: 0px;
+}
+.cart-footer{
+    margin: 1rem 0.5rem;
+}
+
+.btn-hover-3 button{
+    padding: 10px 20px;
+}
+
+
+.client-feedback-area{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.client-feedback-area .client-says{
+    margin: 0rem;
+    padding: 10px 20px;
+}
+.client-feedback-area h2{
+    font-family: serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 4rem;
+}
+.client-feedback-area p{
+    font-family: 'Jost', sans-serif;
+    line-height: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-top: 1rem;
+}
+
+/* Slider */
+
+main{
+    width: 70%;
+    height: 40vh;
+    /* margin: auto; */
+    box-shadow: 0px 0px 3px grey;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5rem;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 1s;
+}
+.nav{
+    text-align: center;
+    margin-top: 1rem;
+}
+.nav button{
+    font-size: 1rem;
+    padding: .2rem;
+}
+}
